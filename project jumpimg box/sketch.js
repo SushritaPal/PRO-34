@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
 
   ball.bounceOff(edges[1]);
   ball.bounceOff(edges[2]);
